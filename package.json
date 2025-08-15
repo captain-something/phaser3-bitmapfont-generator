@@ -13,19 +13,25 @@
   ],
   "author": "triamero",
   "license": "MIT",
+  "engines": {
+    "npm": "10.24.1",
+    "node": "6.14.12"
+  },
   "dependencies": {
-    "js2xmlparser": "^4.0.1",
-    "phaser": "^3.24.1"
+    "js2xmlparser": "4.0.1",
+    "phaser": "3.24.1"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^4.5.0",
-    "terser-webpack-plugin": "^3.0.6",
-    "ts-loader": "^6.2.1",
-    "tsconfig-paths-webpack-plugin": "^3.2.0",
-    "typescript": "^3.9.7",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
-    "webpack-merge": "^4.2.2"
+    "@types/node": "10.17.60",
+    "@types/minimatch": "3.0.5",
+    "html-webpack-plugin": "4.5.0",
+    "terser-webpack-plugin": "3.0.6",
+    "ts-loader": "6.2.1",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
+    "typescript": "3.9.7",
+    "webpack": "4.41.4",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1",
+    "webpack-merge": "4.2.2"
   }
 }
